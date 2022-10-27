@@ -1,6 +1,6 @@
 # To check whether the app produces random order menu
 import random
-from zapp.Producer.food_item import foodGenerator
+from Producer.food_item import foodGenerator
 
 
 food_lists = {
