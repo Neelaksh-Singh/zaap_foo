@@ -7,8 +7,9 @@ food_list = [
     'China King','Imperial Wok','China Star','Platinum Dragon','Sushi Asia Gormet','China Express','New Ming Restaurant','House of Hunan','Sushi Katsu','Sakura','T J Sushi','Big Eye Japanese Cuisine & Sushi Bar','Hong Kong Buffet','Taste of Bankok','Hyde Out'
 ]
 
-def foodGenerator(tot_food_items):
-    ordered_food = random.choices(food_list,k=tot_food_items)
+# Generates a random list of food items
+def foodGenerator(tot_food_items_needed):
+    ordered_food = random.choices(food_list,k=tot_food_items_needed)
     return ordered_food
 
     
