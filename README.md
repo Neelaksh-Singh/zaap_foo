@@ -7,7 +7,7 @@ A scalable, event driven food ordering app.
 
 This project aims to create the necessary infrastructural backend to handle multiple orders and transactions. It also has the facility for providing the business team with real time analytics capabilities.
 
-Kafa streaming pipeline is used for managing and working with multiple data streams, and is used for handling real-time orders and transaction.
+Kafka streaming pipeline is used for managing and working with multiple data streams, and is used for handling real-time orders and transaction.
 </details>
 
 
