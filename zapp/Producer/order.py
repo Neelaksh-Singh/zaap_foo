@@ -19,11 +19,11 @@ time.sleep(5)
 # Time to produce our orders
 for i in range(1, ORDER_LIMIT):
     tot_food_item = random.randint(1,5)
-    order = foodGenerator(tot_food_items=tot_food_item)
+    order = foodGenerator(tot_food_items_needed=tot_food_item)
     data = {
         "order_id": i,
         "user_id": f"usId_{i}",
-        "total_cost": i * 5,
+        "total_cost": i * tot_food_item,
         "items": order,
     }
 
