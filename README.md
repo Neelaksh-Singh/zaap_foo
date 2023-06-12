@@ -30,7 +30,7 @@ You can go ahead and get your Docker Engine from the official [Docker Website](h
 ```console
 $ git clone https://github.com/Neelaksh-Singh/zaap_foo.git
 $ cd zaap_foo/
-$ docker-compose up
+$ docker compose up
 ```
 The project will now have a running Kafka and Zookeeper instance needed for the Kafka Pipeline.
 
